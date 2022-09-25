@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body{
+    padding: 0%;
+    margin: 0;
+}
+#maindd{
+    width: 100%;
+    /* height: 300px; */
+    display: inline-block;
+    border: 2px solid black;
+    background-image: url(images/foodWallpaper.png);
+    background-repeat: no-repeat;
+    background-size: 100% 470px;
+}
+.container1{
+    height: 470px;
+    width: 60%;
+    /* border: 2px solid red; */
+
+
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-image: url(images/goodimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    
+}
+.container1 h1{
+    /* margin-left: 19%; */
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
+#drop-search{
+    margin-left: 17%;
+    display: flex;
+    height: 63px;
+    /* border: 2px solid gray; */
+    margin-top: 3%;
+}
+#dpdown{
+    display: inline-block;
+}
+#btnchng{
+    width: 245px;
+    height: 61px;
+    border-radius: 0;
+    background-color: #ffffff;
+
+
+}
+#btnchng span{
+    color: #636F88;
+    margin-right: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 80;
+}
+#dmenu{
+    width: 245px;
+    border-radius: 0;
+}
+#dmenu li a{
+    color: #636F88;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 80;
+}
+#srchcng{
+    display: inline-block;
+    height: 60px;
+    width: 465px;
+    margin-left: 4%;
+    background-color: #ffffff;
+}
+.srchicon{
+    height: 100%;
+    width: 100%;
+}
+.srchicon input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin-left: -8%;
+    color: #636F88;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+}
+.icons{
+    color:#636F88;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.content{
+    /* border: 2px solid black; */
+    width: 84%;
+    /* display: inline-block; */
+    margin: 0% 8%;
+}
+#fhead{
+    height: 91px;
+    margin-left: 1%;
+    /* border: 2px solid rgb(98, 69, 69); */
+
+}
+#fhead h2{
+    color: #192F60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#fhead p{
+    color: #8C96AB;
+    font-family: 'Poppins', sans-serif;
+}
+.fitem{
+    height: 295px;
+}
+#fooddata{
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 219px;
+    margin: 2% 0%;
+    margin-left: 2%;
+    display: flex;
+    box-shadow: 2px 2px 4px 0px;
+    cursor: pointer;
+}
+#fooddata img{
+    height: 100%;
+    width: 50%;
+}
+#fooddata h3{
+    color: #192F60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#fooddata p{
+    /* text-align: center; */
+    color: #8C96AB;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    /* margin: 0% 23%; */
+}
+.foodcon{
+    justify-content: center;
+    margin: 5% 5%;
+    width: 100%;
+}
